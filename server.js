@@ -3,7 +3,6 @@ import dotenv from "dotenv";
 import cors from "cors";
 import connectDB from "./db.js";
 import employeeRoutes from "./routes/employee.routes.js";
-
 //defining the app using express
 const app = express();
 
